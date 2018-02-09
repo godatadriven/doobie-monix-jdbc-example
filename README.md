@@ -1,7 +1,7 @@
-Doobie + Monix Example
+doobie + Monix Example
 =======================
 
-This repository contains a small example sbt project to demonstrate how to combine [Doobie](http://tpolecat.github.io/doobie/) (a principled JDBC layer) and [Monix](https://monix.io/) (asynchronous programming in Scala) to obtain fast, concise and typechecked JDBC access in your Scala project.
+This repository contains a small example sbt project to demonstrate how to combine [doobie](http://tpolecat.github.io/doobie/) (a principled JDBC layer) and [Monix](https://monix.io/) (asynchronous programming in Scala) to obtain fast, concise and typechecked JDBC access in your Scala project.
 
 Getting started
 ===============
@@ -15,3 +15,9 @@ docker run -p 5432:5432 docker-postgres:doobie
 ```
 
 Once the docker-postgres container is running, you can run the example application (`sbt run`) and run the unit tests (`sbt test`)
+
+
+Context
+=======
+
+This repository was made available as part of a [blogpost](blog.md)
